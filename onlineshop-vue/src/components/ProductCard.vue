@@ -17,6 +17,9 @@ defineProps(['nama', 'harga', 'gambar'])
   padding: 14px;
   width: 200px;
   text-align: center;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
 }
 .card img {
   width: 100%;

@@ -1,9 +1,25 @@
 <template>
     <nav>
-        <h2>SMK YADIKA SOREANG - Onlineshop</h2>
-        <RouterLink to="/">Landing</RouterLink>
-        <RouterLink to="/product">Product</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <div class="judul">
+            <p>
+                <b>SMK YADIKA SOREANG - ONLINESHOP</b>
+            </p>
+
+            <p>
+                <RouterLink to="/Landing">Landing</RouterLink>
+                <RouterLink to="/about">About</RouterLink>
+                <RouterLink to="/Product">Product</RouterLink>
+                <RouterLink to="/Contact">Contact</RouterLink>
+            </p>
+        </div>
     </nav>
-    <hr />
-    </template>
+    <br>
+     </template>
+
+     <style scoped>
+    .judul {
+        display: flex;
+        justify-content: space-between;
+    }
+    </style>
+     

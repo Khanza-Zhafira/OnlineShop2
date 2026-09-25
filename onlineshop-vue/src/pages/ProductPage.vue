@@ -8,7 +8,6 @@ const daftarProduk = [
   { id: 3, nama: 'Kucing Russian Blue', harga: 30000000, gambar: 
 'https://www.bing.com/th/id/OIP.1fAz6KeCF_GOkAaU-REuIAHaD3?w=193&h=135&c=8&rs=1&qlt=90&o=6&pid=ImgAns&rm=2'},
 ]
-
 </script>
 <template>
   <main>

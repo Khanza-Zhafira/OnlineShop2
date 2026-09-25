@@ -1,35 +1,49 @@
 <template>
- <main>
 <div class="landing-page">
     <h1 style="font-size: 20px;">SELAMAT DATANG DI ONLINESHOP SEKOLAH KAMI</h1>
     <P>Belanja mudah, seklah senang.</P>
     <button class="btn-grad">click to shop</button>
 </div>
 
-<div class="hero-media">
-    <div class="video-card">
-    <video controls muted loop>
-      <source src="" type="video/mp4" />
-        Browser Anda tidak mendukung video.
-      </video>
-    </div>
-  </div>
-
- </main>
+<main>
+  <h1>Tentang Kami</h1>
+  <p>Onlineshop ini di kelola oleh siswa SMK YADIKA SOREANG Jurusan RPL</p>
+</main>
 </template>
-
 <style scoped>
-.container {
-  display: flex;
+.landing-page {
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  height: 50px;
-}
-.landing-page2 {
+  padding: 5rem;
   text-align: center;
-  margin: 20px;
+  align-items: center;
+  background-color: aquamarine;
+  width: 100%;
+  height: 100px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
 
+}
+.btn-grad {
+  background-image: linear-gradient( to right, #77a1d3 0%, #79cbca 51%, #77a1d3 100%);
+}
+
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
 }
 </style>
-
- 
